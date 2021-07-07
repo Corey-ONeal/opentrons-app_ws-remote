@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"e1839a8" = {path = ".", editable = true}
+virtualenv = "*"
+aiohttp = "==3.4.4"
+
+[dev-packages]
+flake8 = "~=3.9.0"
+flake8-annotations = "~=2.6.2"
+flake8-docstrings = "~=1.6.0"
+flake8-noqa = "~=1.1.0"
+pytest = "==6.1.0"
+pytest-watch = "~=4.2.0"
+pytest-cov = "<2.11.0"
+pytest-aiohttp = "*"
+twine = ">=1.12.0"
+wheel = "==0.30.0"
+coverage = "==4.4.2"
+colorama = "*"
+mypy = "==0.800"
+typing-extensions = "*"
+
+[requires]
+python_version = "3.7"

@@ -1,0 +1,34 @@
+api/**
+update-server/**
+robot-server/**
+shared-data/python/**
+**/node_modules/**
+**/coverage/**
+**/dist/**
+**/build/**
+**/venv/**
+
+# flow
+flow-typed/npm/**
+discovery-client/flow-types/**
+components/flow-types/**
+shared-data/flow-types/**
+
+# typescript
+app-shell/lib/**
+discovery-client/lib/**
+**/lib/**/*.d.ts
+**/lib/**/*.json
+
+# prettier
+**/package.json
+**/CHANGELOG.md
+lerna.json
+!api/release-notes.md
+!app-shell/build/release-notes.md
+
+# components library
+storybook-static
+
+# mypy
+**/.mypy_cache/**

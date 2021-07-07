@@ -1,0 +1,19 @@
+{
+  "continue_proceed_to_calibrate": "Proceed to Calibrate",
+  "continue_verify_calibrations": "Verify pipette and labware calibrations",
+  "error_message_no_steps": "This protocol has no steps in it - there's nothing for your robot to do! Your protocol needs at least one aspirate/dispense to import properly",
+  "instrument_not_attached": "Not attached",
+  "instrument_cal_data_title": "Calibration data",
+  "instruments_title": "Required Pipettes",
+  "labware_title": "Required Labware",
+  "labware_legacy_definition": "N/A",
+  "labware_cal_description": "Calibrated offset from labware origin point",
+  "modules_title": "Required Modules",
+  "required_type_title": "Type",
+  "required_quantity_title": "Quantity",
+  "required_cal_data_title": "Calibration Data",
+  "custom_labware_not_supported": "Robot doesn't support custom labware",
+  "simulation_in_progress": "Simulation in Progress",
+  "update_robot_for_custom_labware": "You have custom labware definitions saved to your app, but this robot needs to be updated before you can use these definitions with Python protocols",
+  "upload_and_simulate": "Upload and Simulate Protocol"
+}
